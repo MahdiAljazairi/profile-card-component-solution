@@ -19,16 +19,16 @@ body {
   background-color: #19a2ae; /* Dark Cyan */
   
   background-image: url(images/bg-pattern-top.svg)
-  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
-  /* ⚠️ THERE IS A COMMA HERE! => */ , /* WATCH OUT THE COMMA! ⚠️ */
-  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️ THERE IS A COMMA HERE => */ , /* WATCH OUT THE COMMA! ⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
                     url(images/bg-pattern-bottom.svg);
   
   background-position: calc(50% - clamp(18.6rem, 35.8vw, 32.25rem))
                        calc(50% - clamp(23.8rem, 26.4vw, 23.75rem))
-  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
-  /* ⚠️ THERE IS A COMMA HERE! => */ , /* WATCH OUT THE COMMA! ⚠️ */
-  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️ THERE IS A COMMA HERE => */ , /* WATCH OUT THE COMMA! ⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
                        calc(50% + clamp(18.6rem, 32vw, 28.8rem))
                        calc(50% + clamp(21.3rem, 35vw, 31.5rem));
   
@@ -86,7 +86,7 @@ img {
 .card .info {
   grid-area: info;
   text-align: center;
-  padding: 1.3rem;
+  padding: 1.1rem;
 }
 
 .card .info .name,
@@ -118,7 +118,7 @@ img {
 
 .card .stats {
   grid-area: stts;
-  padding: 1.75rem 2.1rem;
+  padding: 1.5rem 2.1rem;
   columns: 3;
 }
 
@@ -129,7 +129,7 @@ img {
 .card .stats p {
   font-size: .65rem;
   letter-spacing: .13em;
-  margin-top: .2rem;
+  margin-top: .3rem;
   color: #6a6f81; /* Dark Grayish Blue */
 }
 
