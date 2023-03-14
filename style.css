@@ -1,0 +1,164 @@
+@import url(https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700);
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-underline-position: from-font;
+}
+
+body {
+  display: grid;
+  grid-template: "... .... ..." 1fr
+                 "... card ..." auto
+                 "... attr ..." 1fr
+                / 1fr auto 1fr;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #2d3248; /* Very Dark Desaturated Blue */
+  background-color: #19a2ae; /* Dark Cyan */
+  
+  background-image: url(images/bg-pattern-top.svg)
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️ THERE IS A COMMA HERE! => */ , /* WATCH OUT THE COMMA! ⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+                    url(images/bg-pattern-bottom.svg);
+  
+  background-position: calc(50% - clamp(18.6rem, 35.8vw, 32.25rem))
+                       calc(50% - clamp(23.8rem, 26.4vw, 23.75rem))
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+  /* ⚠️ THERE IS A COMMA HERE! => */ , /* WATCH OUT THE COMMA! ⚠️ */
+  /* ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️ */
+                       calc(50% + clamp(18.6rem, 32vw, 28.8rem))
+                       calc(50% + clamp(21.3rem, 35vw, 31.5rem));
+  
+  background-size: clamp(40.125rem, 68vw, 61.125rem);
+  background-repeat: no-repeat;
+}
+
+a {
+  color: currentColor;
+  outline-offset: .4em;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a:active {
+  opacity: .6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  grid-area: card;
+  display: grid;
+  grid-template: ".... .... ...." 5.4rem
+                 ".... avtr ...." min-content
+                 ".... info ...." auto
+                 " hr   hr   hr " min-content
+                 "stts stts stts" 5.5rem
+                / auto auto auto;
+  margin: 0 1.5rem;
+  width: clamp(17rem, 100vw - 3rem, 21.8rem);
+  height: 23.35rem;
+  border-radius: .9rem;
+  
+  background-color: white;
+  background-image: url(images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.card .avatar {
+  grid-area: avtr;
+  margin: 0 auto;
+  border: .4rem solid white;
+  border-radius: 50%;
+  transform: translateX(1px); /* Never ask why.. */
+}
+
+.card .info {
+  grid-area: info;
+  text-align: center;
+  padding: 1.3rem;
+}
+
+.card .info .name,
+.card .info .age,
+.card .stats .figure {
+  font-size: 1.125rem;
+}
+
+.card .info .name,
+.card .stats .figure {
+  font-weight: 700;
+}
+
+.card .info .name {
+  margin-right: .25rem;
+}
+
+.card .info .location {
+  font-size: .875rem;
+  margin-top: .5rem;
+  color: #6a6f81; /* Dark Grayish Blue */
+}
+
+.card hr {
+  grid-area: hr;
+  border: none;
+  border-top: 1px solid #969696; /* Dark Gray */
+}
+
+.card .stats {
+  grid-area: stts;
+  padding: 1.75rem 2.1rem;
+  columns: 3;
+}
+
+.card .stats > * {
+  text-align: center;
+}
+
+.card .stats p {
+  font-size: .65rem;
+  letter-spacing: .13em;
+  margin-top: .2rem;
+  color: #6a6f81; /* Dark Grayish Blue */
+}
+
+.attribution {
+  grid-area: attr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  color: white;
+  font-size: .8rem;
+}
+
+/*------------------------------------------------------------*/
+
+@media (max-width: 400px) {
+  .attribution {
+    font-size: .7rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .card .stats {
+    padding-right: 2.2rem;
+  }
+}
+
+@media (max-width: 342px) {
+  .card .stats {
+    padding-top: 1rem;
+  }
+}
