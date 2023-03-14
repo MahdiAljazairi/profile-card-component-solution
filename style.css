@@ -100,6 +100,12 @@ img {
   font-weight: 700;
 }
 
+.card .info .age,
+.card .info .location,
+.card .stats p {
+  color: #6a6f81; /* Dark Grayish Blue */
+}
+
 .card .info .name {
   margin-right: .25rem;
 }
@@ -107,7 +113,6 @@ img {
 .card .info .location {
   font-size: .875rem;
   margin-top: .5rem;
-  color: #6a6f81; /* Dark Grayish Blue */
 }
 
 .card hr {
@@ -130,7 +135,6 @@ img {
   font-size: .65rem;
   letter-spacing: .13em;
   margin-top: .3rem;
-  color: #6a6f81; /* Dark Grayish Blue */
 }
 
 .attribution {
