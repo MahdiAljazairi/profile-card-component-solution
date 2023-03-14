@@ -29,8 +29,8 @@ Frontend Mentor challenges help you improve your coding skills by building reali
 
 ### Links
 
-- Solution URL: <https://your-solution-url.com>
-- Live Site URL: <https://your-live-site-url.com>
+- Solution URL: <https://www.frontendmentor.io/solutions/sepulchral-goose-foot-HpHuZyf-VE>
+- Live Site URL: <https://profile-card-component-solution-1234.netlify.app>
 
 ## My Process
 
